@@ -14,21 +14,6 @@
 + (XDManagerTool *)sharedTool;
 
 /*
- *检查网络连接情况 NO:网络断开
- */
-+ (BOOL)isConnectedToNetwork;
-
-/*
- *网络断开时，显示警告
- */
-+ (void)showNetworkWarn;
-
-/*
- *获取数据失败时，显示错误
- */
-+ (void)showGetDataError;
-
-/*
  *将aDate转为该天零点
  */
 - (NSDate *)ConvertToZeroInMorning:(NSDate *)aDate;

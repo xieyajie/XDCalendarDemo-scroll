@@ -9,12 +9,8 @@
 #import <QuartzCore/QuartzCore.h>
 #import "XDDayBlock.h"
 #import "NSDate+Convenience.h"
+#import "XDCalendarPickerDaysOwner.h"
 #import "LocalDefine.h"
-
-
-#define kColorDValue 20.0 
-#define kColorBase 255.0
-#define kNotificationClickDay @"clickDay"
 
 @interface XDDayBlock()
 {
@@ -43,7 +39,6 @@
         _dayFormatter = [[NSDateFormatter alloc] init];
         _dayFormatter.dateFormat = @"d";
         
-//        self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
         self.titleLabel.font = [UIFont systemFontOfSize: 13.0];
         [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
@@ -119,12 +114,20 @@
     _blockState = state;
     self.selected = NO;
     
+    NSDate *selectedDate = nil;
     switch (_blockState) {
         case XDDayBlockStateNoraml:
             [self setBlocksStyleNormal];
             break;
         case XDDayBlockStateSelected:
             self.selected = YES;
+            if ([XDCalendarPickerDaysOwner sharedDaysOwner].selectedBlock == nil) {
+                selectedDate = [[XDCalendarPickerDaysOwner sharedDaysOwner] selectedDate];
+                if ([_blockDate compareWithDate:selectedDate] == XDDateCompareEqual) {
+                    [XDCalendarPickerDaysOwner sharedDaysOwner].selectedBlock = self;
+                }
+            }
+            [self setBlocksStyleNormal];
             break;
         case XDDayBlockStateMoving:
             [self setBlockStyleMoving];
@@ -134,7 +137,6 @@
             break;
     }
 }
-
 
 #pragma mark - private: The block information
 
@@ -171,22 +173,25 @@
 
 - (void)setBlocksStyleNormal
 {
-    [_movingLabel removeFromSuperview];
+    [self.movingLabel removeFromSuperview];
     [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
+    self.titleLabel.alpha = 1.0;
 }
 
 - (void)setBlockStyleMoving
 {
     [self.movingLabel removeFromSuperview];
-
-    if (self.selected) {
-        [self bringSubviewToFront:self.imageView];
-    }
-    
     UIColor *color = [UIColor colorWithRed:240 / 255.0 green:240 / 255.0 blue:240 / 255.0 alpha:1.0];
     [self setTitleColor:color forState:UIControlStateNormal];
     [self setTitleColor:color forState:UIControlStateSelected];
+    self.titleLabel.alpha = 0.4;
+
+    NSDate *selectedDate = [[XDCalendarPickerDaysOwner sharedDaysOwner] selectedDate];
+    if ([_blockDate compareWithDate:selectedDate] == XDDateCompareEqual) {
+        [XDCalendarPickerDaysOwner sharedDaysOwner].selectedBlock = self;
+        self.selected = YES;
+    }
     
     int row = [_blockDate countOfWeeksInMonth] / 2 + 1;
     if ([_blockDate weekInMonth] == row && [_blockDate week] == 5) {
@@ -201,7 +206,7 @@
 {
     if (!self.selected) {
         self.selected = YES; 
-        [[NSNotificationCenter defaultCenter] postNotificationName: kNotificationClickDay object:self userInfo:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName: kNotificationSelectedDay object:self userInfo:nil];
     }
 }
 

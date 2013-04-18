@@ -75,6 +75,15 @@ static XDCalendarPickerDaysOwner *daysOwner = nil;
     _selectedDate = [selectedDate copy];
 }
 
+- (void)setSelectedBlock:(XDDayBlock *)selectedBlock
+{
+    if (_selectedBlock != nil) {
+        [_selectedBlock release];
+    }
+    
+    _selectedBlock = [selectedBlock retain];
+}
+
 #pragma mark - public
 
 - (void)workBeginDateBy:(NSDate *)aDate

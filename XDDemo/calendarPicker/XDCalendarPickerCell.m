@@ -10,9 +10,7 @@
 #import "XDCalendarPickerDaysOwner.h"
 #import "XDDayBlock.h"
 #import "NSDate+Convenience.h"
-
-#define kCalendarDayBlockWidth 46
-#define kCalendarDayBlockHeight 46
+#import "LocalDefine.h"
 
 @interface XDCalendarPickerCell()
 {
@@ -105,13 +103,8 @@
 
 - (void)setBlocksMoving
 {
-//    NSDate *selectedDate = [[XDCalendarPickerDaysOwner sharedDaysOwner] selectedDate];
     for (int i = 0; i < 7; i++) {
         XDDayBlock *block = [_blocks objectAtIndex:i];
-//        NSDate *date = block.blockDate;
-//        if ([date compareWithDate:selectedDate] == XDDateCompareEqual) {
-//            block.selected = YES;
-//        }
         block.blockState = XDDayBlockStateMoving;
     }
 }

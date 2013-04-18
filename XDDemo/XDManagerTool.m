@@ -47,38 +47,6 @@ static XDManagerTool *sharedTool = nil;
     return sharedTool;
 }
 
-//+ (BOOL)isConnectedToNetwork
-//{
-//    BOOL isExistenceNetwork;
-//	Reachability *r = [Reachability reachabilityWithHostName:@"www.baidu.com"];
-//    switch ([r currentReachabilityStatus]) {
-//        case NotReachable:
-//			isExistenceNetwork=FALSE;
-//            break;
-//        case ReachableViaWWAN:
-//			isExistenceNetwork=TRUE;
-//            break;
-//        case ReachableViaWiFi:
-//			isExistenceNetwork=TRUE;
-//            break;
-//    }
-//	return isExistenceNetwork;
-//}
-
-+ (void)showNetworkWarn
-{
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"警告" message:@"请检查网络连接" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
-    [alertView show];
-    [alertView release];
-}
-
-+ (void)showGetDataError
-{
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"错误" message:@"获取网络数据出错" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
-    [alertView show];
-    [alertView release];
-}
-
 #pragma mark - public
 
 - (NSDate *)ConvertToZeroInMorning:(NSDate *)aDate
