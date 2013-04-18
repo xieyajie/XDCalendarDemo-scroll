@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A367788171CDD5A00D14E6A /* XDCalendarPickerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A367787171CDD5A00D14E6A /* XDCalendarPickerProvider.m */; };
-		3A36778B171CE1D500D14E6A /* XDDayBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36778A171CE1D500D14E6A /* XDDayBlock.m */; };
-		3A36778F171CEAB100D14E6A /* XDCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36778E171CEAB100D14E6A /* XDCalendarPicker.m */; };
-		3A367798171CF8E400D14E6A /* NSDate+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A367797171CF8E400D14E6A /* NSDate+Convenience.m */; };
-		3A36779B171CF99600D14E6A /* XDCalendarPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36779A171CF99600D14E6A /* XDCalendarPickerCell.m */; };
-		3A36779E171CFB4100D14E6A /* CalendarRowBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A36779C171CFB4100D14E6A /* CalendarRowBottom.png */; };
-		3A36779F171CFB4100D14E6A /* CalendarRowBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A36779D171CFB4100D14E6A /* CalendarRowBottom@2x.png */; };
-		3A3677A3171D216600D14E6A /* calendar_todayBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3677A2171D216600D14E6A /* calendar_todayBg.png */; };
-		3A3677A5171D217300D14E6A /* calendar_todaySelectedBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3677A4171D217200D14E6A /* calendar_todaySelectedBg.png */; };
-		3A3677A8171D265D00D14E6A /* calendar_blockNormalBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3677A6171D265D00D14E6A /* calendar_blockNormalBg.png */; };
-		3A3677A9171D265D00D14E6A /* calendar_blockSelectedBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3677A7171D265D00D14E6A /* calendar_blockSelectedBg@2x.png */; };
-		3A3677AC171D306F00D14E6A /* XDCalendarPickerDaysOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3677AB171D306E00D14E6A /* XDCalendarPickerDaysOwner.m */; };
+		3A276C47171F969D009ECBE1 /* NSDate+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A276C3E171F969D009ECBE1 /* NSDate+Convenience.m */; };
+		3A276C48171F969D009ECBE1 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A276C40171F969D009ECBE1 /* UIColor+Category.m */; };
+		3A276C49171F969D009ECBE1 /* calendar_blockNormalBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A276C42171F969D009ECBE1 /* calendar_blockNormalBg.png */; };
+		3A276C4A171F969D009ECBE1 /* calendar_blockSelectedBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A276C43171F969D009ECBE1 /* calendar_blockSelectedBg@2x.png */; };
+		3A276C4B171F969D009ECBE1 /* calendar_signBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A276C44171F969D009ECBE1 /* calendar_signBg@2x.png */; };
+		3A276C4C171F969D009ECBE1 /* calendar_todayBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A276C45171F969D009ECBE1 /* calendar_todayBg.png */; };
+		3A276C4D171F969D009ECBE1 /* calendar_todaySelectedBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A276C46171F969D009ECBE1 /* calendar_todaySelectedBg.png */; };
+		3A276C57171F9796009ECBE1 /* XDCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A276C50171F9796009ECBE1 /* XDCalendarPicker.m */; };
+		3A276C58171F9796009ECBE1 /* XDCalendarPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A276C52171F9796009ECBE1 /* XDCalendarPickerCell.m */; };
+		3A276C59171F9796009ECBE1 /* XDCalendarPickerDaysOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A276C54171F9796009ECBE1 /* XDCalendarPickerDaysOwner.m */; };
+		3A276C5A171F9796009ECBE1 /* XDDayBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A276C56171F9796009ECBE1 /* XDDayBlock.m */; };
 		3A3677AF171D3FA200D14E6A /* XDManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3677AE171D3F3900D14E6A /* XDManagerTool.m */; };
-		3A3677B2171D48CE00D14E6A /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3677B1171D48A800D14E6A /* UIColor+Category.m */; };
 		3A4238A4171C004500349B7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4238A3171C004500349B7A /* UIKit.framework */; };
 		3A4238A6171C004500349B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4238A5171C004500349B7A /* Foundation.framework */; };
 		3A4238A8171C004500349B7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4238A7171C004500349B7A /* CoreGraphics.framework */; };
@@ -33,32 +31,28 @@
 		3A4238BD171C004500349B7A /* XDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4238BC171C004500349B7A /* XDViewController.m */; };
 		3A4238C0171C004500349B7A /* XDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4238BE171C004500349B7A /* XDViewController.xib */; };
 		3A43310E171E33C000C8BBB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A43310D171E33C000C8BBB7 /* QuartzCore.framework */; };
-		3A433110171E414F00C8BBB7 /* calendar_signBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A43310F171E414F00C8BBB7 /* calendar_signBg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A367786171CDD5A00D14E6A /* XDCalendarPickerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCalendarPickerProvider.h; sourceTree = "<group>"; };
-		3A367787171CDD5A00D14E6A /* XDCalendarPickerProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCalendarPickerProvider.m; sourceTree = "<group>"; };
-		3A367789171CE1D500D14E6A /* XDDayBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDayBlock.h; sourceTree = "<group>"; };
-		3A36778A171CE1D500D14E6A /* XDDayBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDDayBlock.m; sourceTree = "<group>"; };
-		3A36778D171CEAB100D14E6A /* XDCalendarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCalendarPicker.h; sourceTree = "<group>"; };
-		3A36778E171CEAB100D14E6A /* XDCalendarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCalendarPicker.m; sourceTree = "<group>"; };
-		3A367796171CF8E400D14E6A /* NSDate+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Convenience.h"; sourceTree = "<group>"; };
-		3A367797171CF8E400D14E6A /* NSDate+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Convenience.m"; sourceTree = "<group>"; };
-		3A367799171CF99600D14E6A /* XDCalendarPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCalendarPickerCell.h; sourceTree = "<group>"; };
-		3A36779A171CF99600D14E6A /* XDCalendarPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCalendarPickerCell.m; sourceTree = "<group>"; };
-		3A36779C171CFB4100D14E6A /* CalendarRowBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarRowBottom.png; sourceTree = "<group>"; };
-		3A36779D171CFB4100D14E6A /* CalendarRowBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarRowBottom@2x.png"; sourceTree = "<group>"; };
-		3A3677A2171D216600D14E6A /* calendar_todayBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_todayBg.png; sourceTree = "<group>"; };
-		3A3677A4171D217200D14E6A /* calendar_todaySelectedBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_todaySelectedBg.png; sourceTree = "<group>"; };
-		3A3677A6171D265D00D14E6A /* calendar_blockNormalBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_blockNormalBg.png; sourceTree = "<group>"; };
-		3A3677A7171D265D00D14E6A /* calendar_blockSelectedBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar_blockSelectedBg@2x.png"; sourceTree = "<group>"; };
-		3A3677AA171D306E00D14E6A /* XDCalendarPickerDaysOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCalendarPickerDaysOwner.h; sourceTree = "<group>"; };
-		3A3677AB171D306E00D14E6A /* XDCalendarPickerDaysOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCalendarPickerDaysOwner.m; sourceTree = "<group>"; };
+		3A276C3D171F969D009ECBE1 /* NSDate+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Convenience.h"; sourceTree = "<group>"; };
+		3A276C3E171F969D009ECBE1 /* NSDate+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Convenience.m"; sourceTree = "<group>"; };
+		3A276C3F171F969D009ECBE1 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		3A276C40171F969D009ECBE1 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		3A276C42171F969D009ECBE1 /* calendar_blockNormalBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_blockNormalBg.png; sourceTree = "<group>"; };
+		3A276C43171F969D009ECBE1 /* calendar_blockSelectedBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar_blockSelectedBg@2x.png"; sourceTree = "<group>"; };
+		3A276C44171F969D009ECBE1 /* calendar_signBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar_signBg@2x.png"; sourceTree = "<group>"; };
+		3A276C45171F969D009ECBE1 /* calendar_todayBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_todayBg.png; sourceTree = "<group>"; };
+		3A276C46171F969D009ECBE1 /* calendar_todaySelectedBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_todaySelectedBg.png; sourceTree = "<group>"; };
+		3A276C4F171F9796009ECBE1 /* XDCalendarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCalendarPicker.h; sourceTree = "<group>"; };
+		3A276C50171F9796009ECBE1 /* XDCalendarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCalendarPicker.m; sourceTree = "<group>"; };
+		3A276C51171F9796009ECBE1 /* XDCalendarPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCalendarPickerCell.h; sourceTree = "<group>"; };
+		3A276C52171F9796009ECBE1 /* XDCalendarPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCalendarPickerCell.m; sourceTree = "<group>"; };
+		3A276C53171F9796009ECBE1 /* XDCalendarPickerDaysOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCalendarPickerDaysOwner.h; sourceTree = "<group>"; };
+		3A276C54171F9796009ECBE1 /* XDCalendarPickerDaysOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCalendarPickerDaysOwner.m; sourceTree = "<group>"; };
+		3A276C55171F9796009ECBE1 /* XDDayBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDayBlock.h; sourceTree = "<group>"; };
+		3A276C56171F9796009ECBE1 /* XDDayBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDDayBlock.m; sourceTree = "<group>"; };
 		3A3677AD171D3F3900D14E6A /* XDManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDManagerTool.h; sourceTree = "<group>"; };
 		3A3677AE171D3F3900D14E6A /* XDManagerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDManagerTool.m; sourceTree = "<group>"; };
-		3A3677B0171D48A700D14E6A /* UIColor+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
-		3A3677B1171D48A800D14E6A /* UIColor+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
 		3A4238A0171C004500349B7A /* XDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4238A3171C004500349B7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3A4238A5171C004500349B7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -76,7 +70,6 @@
 		3A4238BC171C004500349B7A /* XDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDViewController.m; sourceTree = "<group>"; };
 		3A4238BF171C004500349B7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XDViewController.xib; sourceTree = "<group>"; };
 		3A43310D171E33C000C8BBB7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		3A43310F171E414F00C8BBB7 /* calendar_signBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar_signBg@2x.png"; sourceTree = "<group>"; };
 		3A433111171E4D1900C8BBB7 /* LocalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +88,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A276C3C171F969D009ECBE1 /* Class Expand */ = {
+			isa = PBXGroup;
+			children = (
+				3A276C3D171F969D009ECBE1 /* NSDate+Convenience.h */,
+				3A276C3E171F969D009ECBE1 /* NSDate+Convenience.m */,
+				3A276C3F171F969D009ECBE1 /* UIColor+Category.h */,
+				3A276C40171F969D009ECBE1 /* UIColor+Category.m */,
+			);
+			path = "Class Expand";
+			sourceTree = "<group>";
+		};
+		3A276C41171F969D009ECBE1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3A276C42171F969D009ECBE1 /* calendar_blockNormalBg.png */,
+				3A276C43171F969D009ECBE1 /* calendar_blockSelectedBg@2x.png */,
+				3A276C44171F969D009ECBE1 /* calendar_signBg@2x.png */,
+				3A276C45171F969D009ECBE1 /* calendar_todayBg.png */,
+				3A276C46171F969D009ECBE1 /* calendar_todaySelectedBg.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		3A276C4E171F9796009ECBE1 /* calendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3A276C4F171F9796009ECBE1 /* XDCalendarPicker.h */,
+				3A276C50171F9796009ECBE1 /* XDCalendarPicker.m */,
+				3A276C51171F9796009ECBE1 /* XDCalendarPickerCell.h */,
+				3A276C52171F9796009ECBE1 /* XDCalendarPickerCell.m */,
+				3A276C53171F9796009ECBE1 /* XDCalendarPickerDaysOwner.h */,
+				3A276C54171F9796009ECBE1 /* XDCalendarPickerDaysOwner.m */,
+				3A276C55171F9796009ECBE1 /* XDDayBlock.h */,
+				3A276C56171F9796009ECBE1 /* XDDayBlock.m */,
+			);
+			path = calendarPicker;
+			sourceTree = "<group>";
+		};
 		3A423897171C004500349B7A = {
 			isa = PBXGroup;
 			children = (
@@ -126,18 +157,10 @@
 		3A4238A9171C004500349B7A /* XDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3A276C4E171F9796009ECBE1 /* calendarPicker */,
+				3A276C3C171F969D009ECBE1 /* Class Expand */,
+				3A276C41171F969D009ECBE1 /* images */,
 				3A433111171E4D1900C8BBB7 /* LocalDefine.h */,
-				3A43310F171E414F00C8BBB7 /* calendar_signBg@2x.png */,
-				3A3677B0171D48A700D14E6A /* UIColor+Category.h */,
-				3A3677B1171D48A800D14E6A /* UIColor+Category.m */,
-				3A3677A6171D265D00D14E6A /* calendar_blockNormalBg.png */,
-				3A3677A7171D265D00D14E6A /* calendar_blockSelectedBg@2x.png */,
-				3A3677A4171D217200D14E6A /* calendar_todaySelectedBg.png */,
-				3A3677A2171D216600D14E6A /* calendar_todayBg.png */,
-				3A36779C171CFB4100D14E6A /* CalendarRowBottom.png */,
-				3A36779D171CFB4100D14E6A /* CalendarRowBottom@2x.png */,
-				3A367796171CF8E400D14E6A /* NSDate+Convenience.h */,
-				3A367797171CF8E400D14E6A /* NSDate+Convenience.m */,
 				3A4238B2171C004500349B7A /* XDAppDelegate.h */,
 				3A4238B3171C004500349B7A /* XDAppDelegate.m */,
 				3A4238BB171C004500349B7A /* XDViewController.h */,
@@ -145,16 +168,6 @@
 				3A4238BE171C004500349B7A /* XDViewController.xib */,
 				3A3677AD171D3F3900D14E6A /* XDManagerTool.h */,
 				3A3677AE171D3F3900D14E6A /* XDManagerTool.m */,
-				3A367786171CDD5A00D14E6A /* XDCalendarPickerProvider.h */,
-				3A367787171CDD5A00D14E6A /* XDCalendarPickerProvider.m */,
-				3A367789171CE1D500D14E6A /* XDDayBlock.h */,
-				3A36778A171CE1D500D14E6A /* XDDayBlock.m */,
-				3A36778D171CEAB100D14E6A /* XDCalendarPicker.h */,
-				3A36778E171CEAB100D14E6A /* XDCalendarPicker.m */,
-				3A367799171CF99600D14E6A /* XDCalendarPickerCell.h */,
-				3A36779A171CF99600D14E6A /* XDCalendarPickerCell.m */,
-				3A3677AA171D306E00D14E6A /* XDCalendarPickerDaysOwner.h */,
-				3A3677AB171D306E00D14E6A /* XDCalendarPickerDaysOwner.m */,
 				3A4238AA171C004500349B7A /* Supporting Files */,
 			);
 			path = XDDemo;
@@ -231,13 +244,11 @@
 				3A4238B8171C004500349B7A /* Default@2x.png in Resources */,
 				3A4238BA171C004500349B7A /* Default-568h@2x.png in Resources */,
 				3A4238C0171C004500349B7A /* XDViewController.xib in Resources */,
-				3A36779E171CFB4100D14E6A /* CalendarRowBottom.png in Resources */,
-				3A36779F171CFB4100D14E6A /* CalendarRowBottom@2x.png in Resources */,
-				3A3677A3171D216600D14E6A /* calendar_todayBg.png in Resources */,
-				3A3677A5171D217300D14E6A /* calendar_todaySelectedBg.png in Resources */,
-				3A3677A8171D265D00D14E6A /* calendar_blockNormalBg.png in Resources */,
-				3A3677A9171D265D00D14E6A /* calendar_blockSelectedBg@2x.png in Resources */,
-				3A433110171E414F00C8BBB7 /* calendar_signBg@2x.png in Resources */,
+				3A276C49171F969D009ECBE1 /* calendar_blockNormalBg.png in Resources */,
+				3A276C4A171F969D009ECBE1 /* calendar_blockSelectedBg@2x.png in Resources */,
+				3A276C4B171F969D009ECBE1 /* calendar_signBg@2x.png in Resources */,
+				3A276C4C171F969D009ECBE1 /* calendar_todayBg.png in Resources */,
+				3A276C4D171F969D009ECBE1 /* calendar_todaySelectedBg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,17 +259,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A3677B2171D48CE00D14E6A /* UIColor+Category.m in Sources */,
 				3A3677AF171D3FA200D14E6A /* XDManagerTool.m in Sources */,
 				3A4238B0171C004500349B7A /* main.m in Sources */,
 				3A4238B4171C004500349B7A /* XDAppDelegate.m in Sources */,
 				3A4238BD171C004500349B7A /* XDViewController.m in Sources */,
-				3A367788171CDD5A00D14E6A /* XDCalendarPickerProvider.m in Sources */,
-				3A36778B171CE1D500D14E6A /* XDDayBlock.m in Sources */,
-				3A36778F171CEAB100D14E6A /* XDCalendarPicker.m in Sources */,
-				3A367798171CF8E400D14E6A /* NSDate+Convenience.m in Sources */,
-				3A36779B171CF99600D14E6A /* XDCalendarPickerCell.m in Sources */,
-				3A3677AC171D306F00D14E6A /* XDCalendarPickerDaysOwner.m in Sources */,
+				3A276C47171F969D009ECBE1 /* NSDate+Convenience.m in Sources */,
+				3A276C48171F969D009ECBE1 /* UIColor+Category.m in Sources */,
+				3A276C57171F9796009ECBE1 /* XDCalendarPicker.m in Sources */,
+				3A276C58171F9796009ECBE1 /* XDCalendarPickerCell.m in Sources */,
+				3A276C59171F9796009ECBE1 /* XDCalendarPickerDaysOwner.m in Sources */,
+				3A276C5A171F9796009ECBE1 /* XDDayBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
