@@ -55,6 +55,13 @@
     
 }
 
+/*
+ *size:要生成图片的区域
+ *start：颜色开始的值
+ *end：颜色结束的值
+ *centre：要绘制区域的中心点
+ *radius：CGGradientDrawingOptions
+ */
 - (UIImage *)radialGradientImage:(CGSize)size start:(float)start end:(float)end centre:(CGPoint)centre radius:(float)radius {
     // Initialise
     UIGraphicsBeginImageContextWithOptions(size, YES, 1);
@@ -72,7 +79,7 @@
     CGPoint myCentrePoint = CGPointMake(centre.x * size.width, centre.y * size.height);
     float myRadius = MIN(size.width, size.height) * radius;
     
-    // Draw it!
+    // Draw
     CGContextDrawRadialGradient (UIGraphicsGetCurrentContext(), myGradient, myCentrePoint,
                                  0, myCentrePoint, myRadius,
                                  kCGGradientDrawsAfterEndLocation);
@@ -81,9 +88,9 @@
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     
     // Clean up
-    CGColorSpaceRelease(myColorspace); // Necessary?
-    CGGradientRelease(myGradient); // Necessary?
-    UIGraphicsEndImageContext(); // Clean up
+    CGColorSpaceRelease(myColorspace); 
+    CGGradientRelease(myGradient); 
+    UIGraphicsEndImageContext();
     return image;
 }
 
@@ -205,7 +212,7 @@
 - (void)clickAction:(id)sender
 {
     if (!self.selected) {
-        self.selected = YES; 
+        self.selected = YES;
         [[NSNotificationCenter defaultCenter] postNotificationName: kNotificationSelectedDay object:self userInfo:nil];
     }
 }
